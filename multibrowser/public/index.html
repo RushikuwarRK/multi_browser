@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Multi-View</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Multi-View</h1>
+    <div class="input-section">
+      <input type="text" id="video-url" placeholder="Enter YouTube URL" />
+      <button id="add-video">Add Video</button>
+    </div>
+
+    <div id="video-container" class="video-container">
+      <!-- YouTube players will be inserted here -->
+    </div>
+
+    <div class="controls">
+      <button id="play-all">Play All</button>
+      <button id="pause-all">Pause All</button>
+    </div>
+  </div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
